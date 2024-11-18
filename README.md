@@ -11,33 +11,53 @@ The user-friendly interface, coupled with background music, ensures a delightful
 🌟 Features
 
 •	Two-Player Gameplay: Play as X or O and take turns marking the grid.
+
 •	Sound Effects:
+
                        Background music for a fun atmosphere 🎵.
+                       
                        Unique sounds for placing marks, winning, losing, or tying. 🎶
+                       
 •	Responsive Design: Enjoy the game on any device—desktop or mobile.
+
 •	Game Reset: Start fresh with the click of a button.
+
 •	Winner Announcement: Clear display of results for each round.
+
+
 🛠️ Setup
 Prerequisites
 •	A modern web browser 🌐
+
 •	Speakers or headphones for sound effects 🎧
+
 •	Files
+
 i.	HTML File (index.html): Defines the game structure. 🏗️
+
 ii.	CSS File (styles.css): Provides styling for the layout and responsiveness. 🎨
+
 iii.	JavaScript File (script.js): Handles game logic, sound effects, and interactivity. 📜
+
 •	Sound Assets: Audio files for background music and game effects. 🎵
+
 🚀 Getting Started
 Clone the Repository:
 
 bash
 Copy code
 git clone https://github.com/pragti-124/Tic-Tac-Toe.git
+
 Navigate to the Project Directory:
 
 bash
+
 Copy code
+
 cd <Tic-Tac-Toe>
+
 Open the Game:
+
 Open index.html in any modern web browser to play.
 
 ⚙️ Functionality
@@ -56,24 +76,31 @@ Game Flow:
                  Restart the game anytime by clicking the reset button.
 
 📝 Code Details
+
 •	HTML Structure:
 Layout includes a 3x3 grid, buttons for reset, and a result display area.
+
 •	CSS Styles:
 Grid Styling: Clean, centered gameboard with a modern look.
 Responsiveness: Adaptable design for different screen sizes.
+
 •	JavaScript Logic:
 Game Logic: Manages turns, checks for winning combinations, and determines ties.
 Audio Management: Loads and plays sound files based on user actions.
+
+
 🎮 How to Play
-6.	Launch the game in your browser.
-7.	Player 1 starts as X, and Player 2 is O.
-8.	Take turns clicking on grid cells to place your mark.
-9.	The game ends when one player wins or all cells are filled (tie).
-10.	Click "Reset" to play again!
+1.	Launch the game in your browser.
+2.	Player 1 starts as X, and Player 2 is O.
+3.	Take turns clicking on grid cells to place your mark.
+4.	The game ends when one player wins or all cells are filled (tie).
+5.	Click "Reset" to play again!
+
 🤝 Contribution
 Contributions are welcome! Feel free to:
 Submit bug reports or suggestions via the Issues tab.
 Fork the repository and create a pull request for new features.
+
 📄 License
 This project is licensed under the MIT License.
 
