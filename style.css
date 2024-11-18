@@ -1,32 +1,36 @@
 .glow {
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
   }
   
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
   }
-}
-
-* {
+  
+  * {
     margin: 0;
     padding: 0;
-}
-body{
+  }
+  
+  body {
     background-color: #e5989b;
     text-align: center;
-}
-.container {
+    background-image: url('1.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background image */
+  }
+  
+  .container {
     height: 70vh;
     display: flex;
-  
     justify-content: center;
     align-items: center;
   }
@@ -39,7 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-  } 
+  }
   
   .box {
     height: 18vmin;
@@ -48,19 +52,11 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: #370617; 
-    background-color: #ffffc7; 
+    color: #370617;
+    background-color: #ffffc7;
   }
   
-  #reset-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-  }
-  
+  #reset-btn,
   #new-btn {
     padding: 1rem;
     font-size: 1.25rem;
@@ -69,7 +65,7 @@ body{
     border-radius: 1rem;
     border: none;
   }
-
+  
   #msg {
     color: #ffffc7;
     font-size: 5vmin;
@@ -86,14 +82,32 @@ body{
   
   .hide {
     display: none;
-  } 
-  body {
-    background-image: url('1.jpg'); /* Replace with the path to your image */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents repeating the background image */
-    text-align: center; 
-} 
-   
-
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .box {
+      height: 14vmin;
+      width: 14vmin;
+      font-size: 6vmin;
+    }
+  
+    .game {
+      gap: 1vmin;
+    }
+  
+    #reset-btn,
+    #new-btn {
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  
+    #msg {
+      font-size:4vmin;
+    }
+  
+    .msg-container {
+      gap: 2rem;
+    }
+  }
   
