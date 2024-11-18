@@ -1,12 +1,15 @@
 🎮 Tic-Tac-Toe Game
+
 A dynamic, fun-filled implementation of the classic Tic-Tac-Toe game enhanced with interactive sound effects and smooth design! This project is built using HTML, CSS, and JavaScript to provide an engaging gaming experience.
 
 📜 Overview
+
 This Tic-Tac-Toe game lets two players compete on a 3x3 grid with the added charm of sound effects for every action, including marking X or O, and results like winning, losing, or a tie.
 
 The user-friendly interface, coupled with background music, ensures a delightful experience.
 
 🌟 Features
+
 •	Two-Player Gameplay: Play as X or O and take turns marking the grid.
 •	Sound Effects:
                        Background music for a fun atmosphere 🎵.
