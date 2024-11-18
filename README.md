@@ -13,9 +13,7 @@ The user-friendly interface, coupled with background music, ensures a delightful
 •	Two-Player Gameplay: Play as X or O and take turns marking the grid.
 
 •	Sound Effects:
-
                        Background music for a fun atmosphere 🎵.
-                       
                        Unique sounds for placing marks, winning, losing, or tying. 🎶
                        
 •	Responsive Design: Enjoy the game on any device—desktop or mobile.
@@ -44,21 +42,16 @@ iii.	JavaScript File (script.js): Handles game logic, sound effects, and interac
 🚀 Getting Started
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/pragti-124/Tic-Tac-Toe.git
-
+```bash```
+```git clone: https://github.com/pragti-124/Tic-Tac-Toe.git```
 Navigate to the Project Directory:
 
-bash
-
-Copy code
-
-cd <Tic-Tac-Toe>
-
+```bash```
+```cd Tic-Tac-Toe```
 Open the Game:
-
 Open index.html in any modern web browser to play.
+
+
 
 ⚙️ Functionality
 Game Flow:
